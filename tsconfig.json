@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@/*": ["./*"],
+            "pages/*": ["./pages/*"],
+            "utils/*": ["./utils/*"],
+            "redux/*": ["./redux/*"],
+            "components/*": ["./components/*"],
+        },
+        
+        "module": "commonjs",
+        "target": "es5",
+        "allowJs": true,
+        "checkJs": false,
+        "jsx": "react",
+        "outDir": "./build",
+        // "rootDir": "./lib",
+        "removeComments": true,
+        "noEmit": true,
+        "pretty": true,
+        "skipLibCheck": true,
+        "strict": false,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowImportingTsExtensions": true,
+
+        "forceConsistentCasingInFileNames": true,
+        "incremental": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "src/**/*.tsx",
+        "src/**/**/*.tsx",
+        "src/**/*.js",
+        "src/**/*.jsx",
+        "src/**/*.jpg",
+        "./images.d.ts"
+, "useTailwind.tsx"    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
